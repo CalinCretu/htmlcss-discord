@@ -8,6 +8,17 @@
     font-family: 'Permanent Marker', cursive;
 }
 
+/* HEADER */
+
+.page-header [class^='col'] {
+    display: flex;
+	background-color: #3161E0;
+	padding: 10px;
+    align-items: center;
+}
+
+/* HEADER */
+
 
 
 /* MAIN */
@@ -29,7 +40,7 @@
         /*section 2, 3, 4,*/
 
         /*section 3*/
- .bg-gray {
+.bg-gray {
 	background-color: #d3d3d3;
 }
 .row-reverse {
@@ -39,6 +50,8 @@
        
 /* MAIN */
 
+
+
 /* FOOTER */
 
 .col-2 {
@@ -46,6 +59,8 @@
 }
 
 /* FOOTER */
+
+
 
 /* GENERAL RULES */
 .justify-between {
@@ -63,16 +78,31 @@
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.button-white > a {
+    font-size: 14px;
+    background-color: white;
+    border-radius: 18px;
+    color: black;
+    padding: 7px 16px;
+    
+    
+}
+
 /* GENERAL RULES */
-
-
-
-
-
 
 
 
@@ -89,18 +119,11 @@
 .debug .page-header {
 	background-color: #3161E0;
 	padding: 10px;
+    font-weight: 700 italic;
 }
 
 .debug .page-header [class^='col'] {
-	background-color: #daa520;
-	border: 2px dashed black;
-	padding: 20px;
-}
-
-.debug .page-header [class^='col'] {
-	background-color: #3161E0;
-	border: 2px dashed black;
-	padding: 20px;
+   
 }
 
 .debug .hero {
