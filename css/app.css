@@ -9,12 +9,16 @@
 }
 
 /* HEADER */
+.page-header {
+	background-color: #255EE9;
+	padding: 10px;
+    font-weight: 700 italic;
+}
 
 .page-header [class^='col'] {
     display: flex;
-	background-color: #3161E0;
-	padding: 10px;
     align-items: center;
+    font-weight: 700 italic;
 }
 
 /* HEADER */
@@ -24,9 +28,75 @@
 /* MAIN */
 
 /*section header, 1, 5*/
+
+main section {
+    padding: 20px;
+}
+.col-12 > h1 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.hero {
+	background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
 .col-12 {
 	flex-basis: calc((100% / 12) * 12);
 }
+
+.buttons {
+    padding: 10px;
+    align-items: center;
+}
+
+.title-section-links {
+    display: flex;
+	padding: 10px;
+    font-weight: 700 italic;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.button-white-lg {
+    text-align: center;
+    font-size: 11px;
+    background-color: white;
+    border-radius: 18px;
+    color: black;
+    padding: 5px;
+    flex-basis: calc((100% / 12) * 4);
+}
+
+.button-black-lg {
+    text-align: center;
+    font-size: 10px;
+    background-color: #23272A;
+    border-radius: 18px;
+    color: white;
+    padding: 5px;
+    flex-basis: calc((100% / 12) * 6);
+}
+
+.button-black-lg > a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.button-white-lg > a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
 /*section header, 1, 5*/
 
 /*section 2, 3, 4,*/
@@ -67,6 +137,9 @@
 	justify-content: space-between;
 }
 
+.justify-around {
+    justify-content: space-around;
+}
 .container-sm {
 	max-width: 600px;
 	margin: 0 auto;
@@ -92,14 +165,10 @@ li {
     margin-right: 15px;
 }
 
-.button-white > a {
-    font-size: 14px;
-    background-color: white;
-    border-radius: 18px;
-    color: black;
-    padding: 7px 16px;
-    
-    
+p {
+    color: white;
+    text-align: center;
+    margin: 20px;
 }
 
 /* GENERAL RULES */
@@ -116,37 +185,20 @@ li {
 	background-color: #ffc0cb;
 }
 
-.debug .page-header {
-	background-color: #3161E0;
-	padding: 10px;
-    font-weight: 700 italic;
-}
 
-.debug .page-header [class^='col'] {
-   
-}
 
-.debug .hero {
-	background-color: #00008b;
-}
 
-a {
-    color: white;
-    text-decoration: none;
-}
 
-.debug main section {
-	padding: 20px;
-}
 
-.debug .hero [class^='col-'] {
-	background-color: #ee82ee;
-}
+
+
+
+
 
 .debug main [class^='col-'] {
 	min-height: 200px;
-	padding: 20px;
-	border: 2px dashed black;
+	
+	
 }
 
 .debug .cta-section .col-12 {
@@ -183,3 +235,65 @@ a {
 .debug footer .col-2 {
 	background-color: #20B2AA;
 }
+
+.col-12 > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/*
+.buttons {
+    padding: 10px;
+}
+
+.container-button {
+    margin: 0 auto;
+}
+
+.row-button {
+    display: flex;
+    justify-content: right;
+    flex-wrap: nowrap;
+}
+
+.white-button {
+    flex-basis: calc((100% / 12) * 5);
+}
+
+.black-button {
+    flex-basis: calc((100% / 12) * 7);
+
+}
+
+.button-white-sm > a {
+    font-size: 14px;
+    background-color: white;
+    border-radius: 18px;
+    color: black;
+    padding: 7px 16px;
+}
+
+.button-white-lg {
+    font-size: 16px;
+    background-color: white;
+    border-radius: 18px;
+    color: black;
+    padding: 7px 16px;
+}
+
+.button-black-lg > a {
+    font-size: 16px;
+    background-color: #23272A;
+    border-radius: 18px;
+    color: white;
+    padding: 7px 16px;
+    flex-basis: calc((100% / 12) * 4);
+}
+
+.container-button {
+    display: flex;
+}
+*/
