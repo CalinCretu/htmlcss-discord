@@ -32,6 +32,17 @@
 main section {
     padding: 20px;
 }
+
+main .col-4 {
+	display: flex;
+    text-align: left;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+
 .col-12 > h1 {
     text-align: center;
     color: white;
@@ -111,11 +122,16 @@ a {
 
         /*section 3*/
 .bg-gray {
-	background-color: #d3d3d3;
+	background-color: #F6F6F6;
 }
 .row-reverse {
 	flex-direction: row-reverse;
+    display: flex;
+    flex: wrap;
 }
+
+
+
         /*section 3*/
        
 /* MAIN */
@@ -143,6 +159,13 @@ a {
 .container-sm {
 	max-width: 600px;
 	margin: 0 auto;
+}
+
+.mid-section {
+    color: black;
+    margin: 0 auto;
+    text-align: left;
+    
 }
 
 .row {
@@ -178,12 +201,11 @@ p {
 /* DEBUG */
 
 .debug main .col-8 {
-	background-color: #1e90ff;
+	
 }
 
-.debug main .col-4 {
-	background-color: #ffc0cb;
-}
+
+
 
 
 
