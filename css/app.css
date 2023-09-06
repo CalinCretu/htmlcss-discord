@@ -63,6 +63,9 @@ main .col-4 {
 
 .col-12 {
 	flex-basis: calc((100% / 12) * 12);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .buttons {
@@ -119,7 +122,7 @@ a {
     text-decoration: none;
     font-size: 20px;
     text-align: center;
-    background-color: #8EA1E1;
+    background-color: #2835BD;
     border-radius: 18px;
     padding: 10px 20px;
     margin-top: 30px;
@@ -164,8 +167,54 @@ a {
 
 /* FOOTER */
 
-.col-2 {
-	flex-basis: calc((100% / 12) * 2);
+footer [class^='col-'] {
+	min-height: 200px;
+	padding: 20px;
+}
+
+.page-footer {
+	background-color: #23272a;
+	color: white;
+	padding: 70px 0;
+}
+
+.widget__title {
+	color: #7289da;
+	font-weight: 700;
+	margin-bottom: 16px;
+    font-size: 25px;
+}
+
+.widget__title.small-text {
+    font-size: 15px;
+}
+
+.widget__menu {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.widget__menu .menu__item > a {
+	display: inline-block;
+	line-height: 28px;
+}
+
+.social-link {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+    margin-top: 1.5em;
+    
+}
+
+.social-link .social {
+	line-height: 24px;
+	width: 24px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: white;
+	color: black;
 }
 
 /* FOOTER */
@@ -209,6 +258,14 @@ ul {
     list-style-type: none;
 }
 
+.social-link > li{
+    margin-left: 0px;
+}
+
+.widget__menu > li{
+    margin-left: 0px;
+}
+
 li {
     margin-left: 15px;
     margin-right: 15px;
@@ -226,83 +283,47 @@ div > p {
     margin: 20px; 
 }
 
-
-/* GENERAL RULES */
-
-
-
-/* DEBUG */
-
-.debug main .col-8 {
-	
+.row-sparkle {
+    position: absolute;
 }
-
-
 
 .flex-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 25px;
-    
 }
 
-.row-sparkle {
-    position: absolute;
+.language {
+    cursor: pointer;
 }
 
 
+/* GENERAL RULES */
 
 
 
 
 
 
-.debug main [class^='col-'] {
-	min-height: 200px;
-	
-	
-}
 
-.debug .cta-section .col-12 {
-	background-color: #228b22;
-	min-height: 400px;
-}
 
-.debug .page-footer {
-	background-color: #23272a;
-	padding: 10px;
-}
 
-.debug footer [class^='col-'] {
-	min-height: 200px;
-	padding: 20px;
-	border: 2px dashed white;
-}
 
-.debug footer .col {
-	padding: 20px;
-	border: 2px dashed white;
-	color: white;
-    background-color: #F08080;
-}
 
-.debug .page-footer {
-	background-color: #23272a;
-	padding: 20px;
-}
 
-.debug footer .col-4 {
-	background-color: #F08080;
-}
-.debug footer .col-2 {
-	background-color: #20B2AA;
-}
 
-.col-12 > div {
-    display: flex;
-    justify-content: space-around;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
