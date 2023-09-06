@@ -217,6 +217,38 @@ footer [class^='col-'] {
 	color: black;
 }
 
+.lang-select {
+	padding: 3px 0 3px 45px;
+	display: block;
+	background-image: url('../img/ita.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-bottom: 14px;
+}
+
+select {
+	background-color: transparent;
+	border: none;
+	color: currentColor;
+}
+
+.justify-between-bottom {
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+
+#bottom-button-footer {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    background-color: #2835BD;
+    border-radius: 18px;
+    padding: 10px 20px;
+}
+
 /* FOOTER */
 
 
@@ -325,59 +357,3 @@ div > p {
 
 
 
-
-
-
-/*
-.buttons {
-    padding: 10px;
-}
-
-.container-button {
-    margin: 0 auto;
-}
-
-.row-button {
-    display: flex;
-    justify-content: right;
-    flex-wrap: nowrap;
-}
-
-.white-button {
-    flex-basis: calc((100% / 12) * 5);
-}
-
-.black-button {
-    flex-basis: calc((100% / 12) * 7);
-
-}
-
-.button-white-sm > a {
-    font-size: 14px;
-    background-color: white;
-    border-radius: 18px;
-    color: black;
-    padding: 7px 16px;
-}
-
-.button-white-lg {
-    font-size: 16px;
-    background-color: white;
-    border-radius: 18px;
-    color: black;
-    padding: 7px 16px;
-}
-
-.button-black-lg > a {
-    font-size: 16px;
-    background-color: #23272A;
-    border-radius: 18px;
-    color: white;
-    padding: 7px 16px;
-    flex-basis: calc((100% / 12) * 4);
-}
-
-.container-button {
-    display: flex;
-}
-*/
